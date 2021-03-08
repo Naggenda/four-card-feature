@@ -1,0 +1,131 @@
+body{
+    font-size: 15px;
+}
+.description {
+    padding: 5%;
+    text-align: center;
+}
+
+.h1-unbold {
+    font-weight: lighter;
+}
+
+header {
+    /* background-color: hsl(229, 6%, 66%); */
+}
+
+.four-card {
+    padding: 5% 10%;
+    position: relative;
+    height: 360px;
+}
+
+.card1 {
+    /* background-color: hsl(0, 0%, 98%); */
+    width: 20%;
+    position: absolute;
+    left: 18%;
+    top: 28%;
+    border-radius: 8px;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+    /* background-color: hsl(0, 0%, 98%); */
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.card3 {
+    /* background-color: hsl(0, 0%, 98%); */
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card4 {
+    /* background-color: hsl(0, 0%, 98%); */
+    width: 20%;
+    position: absolute;
+    left: 62%;
+    top: 28%;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-float {
+    width: 20%;
+}
+.line{
+    height: 5px;
+    background-color: hsl(180, 62%, 55%);
+    border-top-right-radius: 63px;
+    border-top-left-radius: 63px;
+}
+.line2{
+    height: 5px;
+    background-color: hsl(0, 78%, 62%);
+    border-top-right-radius: 63px;
+    border-top-left-radius: 63px;
+}
+.line3{
+    height: 5px;
+    background-color: hsl(34, 97%, 64%);
+    border-top-right-radius: 63px;
+    border-top-left-radius: 63px;
+}
+.line4{
+    height: 5px;
+    background-color: hsl(212, 86%, 64%);
+    border-top-right-radius: 63px;
+    border-top-left-radius: 63px;
+}
+.card-pad{
+    padding: 15px 15px;
+}
+.img-align{
+    text-align: right;
+}
+h1, h4{
+    color: hsl(234, 12%, 34%);
+}
+p{
+    color: dimgray;
+}
+
+/* mobile view */
+
+@media screen and (max-width: 375px){
+    .card1{
+        width: 100%;
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .card2{
+        width: 100%;
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .card3{
+        width: 100%;
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .card4{
+        width: 100%;
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .four-card{
+        height: auto;
+    }
+}
